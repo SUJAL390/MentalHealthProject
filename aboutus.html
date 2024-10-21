@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mental Health in Bodybuilding</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <div id="navbar"></div>
+        
+    <div class="image-section">
+        <img src="images/mental-healthforall.jpg" alt="Mental Health" class="large-image">
+    </div>
+  
+    <section id="learn-more" class="page">
+        <div class="content">
+            <div class="written">
+                <h1>Our Mission</h1>
+                <p>
+                    MindMuscle advances the mental health and well-being of all people living in Nepal through public education, research, advocacy, and public policy, and direct service.
+                </p>
+                <h2>MindMuscle</h2>
+                <p>
+                    MindMuscle is the small nonprofit dedicated to the promotion of mental health, well-being, and illness prevention. Our work is informed, designed, and led by the lived experience of those most affected.
+                    Operating nationally and in communities across the country, MindMuscle advocates for closing the mental health equity gap while increasing nationwide awareness and understanding through public education, direct services, tools, and research. Our annual State of Mental Health in Nepal report is among the most widely respected health reports in the nation. 
+                    The new future of whole person health, healing, and flourishing
+                    At MindMuscle, we're not just dreaming of a better future—we're shaping it.
+                    MindMuscle aims to break free of existing limitations in our thinking and approach. We intend to think beyond short-term constraints, misaligned incentives, and policy-making cycles—and ask ourselves how we would design a person-centered system with a focus on all aspects of health and healing.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="image-section2">
+        <img src="images/aboutusdown3.webp" alt="Mental Health" class="large-image">
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            });
+    </script>
+</body>
+</html>

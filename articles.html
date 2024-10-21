@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles | Mental Health in Bodybuilding</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+
+    <main>
+        <section class="content">
+            <h2>Featured Articles</h2>
+            <article>
+                <img src="images/Disorder_banner.webp" alt="Stress and Muscle Growth">
+                <h3>The Impact of Stress on Muscle Growth</h3>
+                <p>Stress is not just a mental challenge; it can also significantly impact your muscle growth and recovery.</p>
+                <a href="article1.html">Read More</a>
+            </article>
+            <article>
+                <img src="images/muscledysmorphia.avif" alt="Positive Mindset in Bodybuilding">
+                <h3>Maintaining Positive Mindset</h3>
+                <p>Building mental resilience is key to staying motivated and overcoming obstacles in your bodybuilding journey.</p>
+                <a href="article2.html">Read More</a>
+            </article>
+            <article>
+                <img src="images/the-side-effects-of-steroid-use-for-bodybuilding.webp" alt="Balancing Mental and Physical Health">
+                <h3>Balancing Mental and Physical Health</h3>
+                <p>A holistic approach to bodybuilding involves balancing both mental and physical health.</p>
+                <a href="article3.html">Read More</a>
+            </article>
+        </section>
+    </main>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            });
+    </script>
+   
+</body>
+</html>

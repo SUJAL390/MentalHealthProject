@@ -1,0 +1,401 @@
+
+ 
+
+  #container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    
+}
+  
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+    
+}
+  
+button {
+    background-color: #ccc;
+    color: #222;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  
+button:hover {
+    background-color: #222;
+    color: #fff;
+    
+}
+
+#info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#foot{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: black;
+  text-align: center;
+  font-size: larger;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  font-family:'Montserrat', sans-serif;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: #faf3e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+/* Header styles */
+header {
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    animation: slideDown 0.5s ease-in-out;
+}
+#MindMuscle{
+    color:white;
+    margin-right: 700px;
+    font-size: 1.2em
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffccbc;
+}
+
+/* Hero section */
+.hero {
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    background: white;
+    margin-bottom: 30px;
+    position: relative;
+    animation: fadeIn 1.5s ease-in;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Content section */
+.content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+    animation: slideUp 1s ease;
+}
+
+.content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.content h3 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    color: black;
+}
+
+.content p, .content ul {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.content ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.content video {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Article styles */
+
+/* Article styles */
+article {
+    display: flex;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d7ccc8;
+    align-items: center; /* Aligns content vertically */
+    width: 100%; /* Ensures consistent width */
+}
+
+article img {
+    width: 200px; /* Sets a fixed width for the images */
+    height: 150px; /* Sets a fixed height for the images */
+    border-radius
+    : 10px;
+    margin-right: 20px;
+    object-fit: cover; /* Ensures the image fits within the specified dimensions without distortion */
+}
+
+article h3 {
+    font-size: 1.8em;
+    margin: 0 0 10px 0;
+    flex: 1; /* Ensures the heading takes available space */
+    width: 100%; /* Keeps the width of the title consistent */
+}
+
+article p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    flex: 1; /* Allows the text to take up remaining space */
+    width: 100%; /* Ensures the paragraph has a consistent width */
+}
+
+article a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin-left: auto; /* Moves the "Read More" button to the far right */
+}
+
+article a:hover {
+    color: black;
+}
+
+/* Ensure all articles are of consistent height */
+article {
+    min-height: 180px; /* Ensures the articles are uniformly tall */
+}
+
+
+/* Form styles */
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    font-size: 1.2em;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #d7ccc8;
+}
+
+form button {
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: black;
+}
+
+/* Footer styles */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+}
+
+footer .social-icons img {
+    height: 30px;
+    width: 30px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease;
+}
+
+footer .social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes slideDown {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+/* Carousel Container */
+.carousel-container {
+    width: 90%;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Carousel - Flex container for the slides */
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Each Slide - Box of the same size (fixed square shape) */
+  .carousel-slide {
+    min-width: 25%; /* Show 4 images at once */
+    box-sizing: border-box;
+    padding: 10px;
+  }
+ 
+  
+  .carousel-slide img {
+    width: 100%;
+    height: 100%; /* Enforce same height as width for square images */
+    object-fit: cover; /* Ensure the image fits within the box */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  /* On hover, slightly zoom in the image */
+  .carousel-slide img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Carousel Controls */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  /* Hover effect for controls */
+  .prev:hover, .next:hover {
+    background-color: #333;
+  }
+  
+  /* Dots for carousel navigation (optional) */
+  .carousel-dots {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .carousel-dots span {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 5px;
+    background-color: #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .carousel-dots .active {
+    background-color: #333;
+  }
+  #image-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the image horizontally */
+    overflow: hidden; /* Prevent overflow if needed */
+}
+
+#image-section img {
+    width: 70%; /* Make the image take the full width of the section */
+    height: auto; /* Keep the aspect ratio */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+    border-radius: 10px; /* Optional: for rounded corners */
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balancing Mental and Physical Health | Mental Health in Bodybuilding</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <main>
+        <section class="content">
+            <h2>Balancing Mental and Physical Health in Bodybuilding</h2>
+            <img src="images/balancing-health.jpg" alt="Balancing Health">
+            <p>Bodybuilding often places a heavy emphasis on physical health, but mental health is equally important. Balancing these two aspects is essential for long-term success and well-being. Physical exercise has been proven to have numerous mental health benefits, such as reducing anxiety, improving mood, and boosting self-esteem. However, it's also important to recognize when your mental health needs attention, especially during the intense phases of training.</p>
+            <p>Overtraining, strict dieting, and the pressure to maintain a certain physique can lead to stress, burnout, and even depression. It's crucial to listen to your body and mind, take breaks when necessary, and seek support from others. Remember, bodybuilding should enhance your overall health, not detract from it. Strive for balance, and your mental and physical health will thrive together.</p>
+            <a href="articles.html" class="back-link">Back to Articles</a>
+        </section>
+    </main>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            });
+    </script>
+  
+</body>
+</html>

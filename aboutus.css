@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#MindMuscle {
+    color: white;
+    margin-right: 700px;
+    font-size: 1.2em;
+}
+
+#learn-more {
+    font-size: 1.2em;
+}
+
+.written {
+    margin: 100px;
+}
+
+.image-section,
+.image-section2 {
+    width: 100%; /* Use 100% for full width */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center images horizontally */
+    align-items: center; /* Center images vertically */
+}
+
+.large-image {
+    max-width: 100%; /* Ensures images fit within their container */
+    height: auto; /* Maintains aspect ratio */
+}

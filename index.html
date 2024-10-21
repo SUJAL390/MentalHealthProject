@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Mental Health in Bodybuilding</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+  <div id="navbar"></div>
+    
+  <div id="image-section">
+    <img src="images/home-banner.jpeg" alt="Mental Health" height="600px" width="1100px">
+   
+  </div>
+
+    <section class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-slide">
+            <img src="images/carousel1.webp" alt="Mental Health Banner 1">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/carousel2.jpg" alt="Mental Health Banner 2">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/carousel3.webp" alt="Mental Health Banner 3">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/carousel4.jpg" alt="Mental Health Banner 4">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/carousel5.jpg" alt="Mental Health Banner 5">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/carousel6.jpg" alt="Mental Health Banner 6">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/carousel7.webp" alt="Mental Health Banner 7">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/carousel8.webp" alt="Mental Health Banner 8">
+          </div>
+          
+         
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+      </section>
+    <main>
+        <section class="content">
+            <h2>Understanding Mental Health in Bodybuilding</h2>
+            <p>Mental health is as critical as physical health in the world of bodybuilding. The stress of intense training, diet management, and the pressure to maintain an ideal physique can all take a toll on your mental well-being. Awareness of the symptoms, understanding the causes, and knowing the solutions are essential for a balanced and healthy life.</p>
+
+            <h3>Common Mental Health Issues in Bodybuilding</h3>
+            <ul>
+                <li>Anxiety and stress related to competition and physical appearance</li>
+                <li>Depression stemming from perceived failures or setbacks</li>
+                <li>Body Dysmorphia and unhealthy obsession with physical perfection</li>
+                <li>Isolation from social activities due to fear of eating</li>
+            </ul>
+            <img src="./images/steroids-ruined.jpg" alt="image" height="200px" width="380px">
+            <img src="./images/bodybuilding-competition.webp" alt="image" height="200px" width="380px">
+            <img src="./images/Downfall-Bodybuilder-Denise-Rutkowski.jpg" alt="image" height="200px" width="380px">
+            <h3>Symptoms to Watch For</h3>
+            <p>Some signs of mental health struggles include:</p>
+            <ul>
+                <li>Constant feelings of inadequacy or failure</li>
+                <li>Social withdrawal and isolation</li>
+                <li>Extreme mood swings and irritability</li>
+                <li>Unhealthy eating behavior</li>
+                <li>Excessive exercise and dieting</li>
+            </ul>
+            <img src="./images/bodybuilding1.webp" alt="image" height="200px" width="380px">
+            <img src="./images/women-and-steroid.webp" alt="image" height="200px" width="380px">
+            <img src="./images/davidlaid.jpg" alt="image" height="200px" width="380px">
+            <h3>Preventative Measures and Solutions</h3>
+            <p>Maintaining mental health in bodybuilding involves:</p>
+            <ul>
+                <li>Setting realistic goals and expectations</li>
+                <li>Building a strong support network</li>
+                <li>Practicing mindfulness and stress-relief techniques</li>
+                <li>Seeking professional help when needed</li>
+                <li>Not getting influenced by social medias fake body standards</li>
+            </ul>
+
+            <div>
+                <img src="./images/counselling1.webp" alt="image" height="200px" width="380px">
+                <img src="./images/counselling3.webp" alt="image" height="200px" width="380px">
+                <img src="./images/counseliing2.webp" alt="image" height="200px" width="380px">
+                
+            </div>
+        </section>
+    </main>
+
+  <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            });
+    </script>
+
+    <script src="script.js"></script>
+    <script src="carousel.js"></script>
+</body>
+</html>
+
+
