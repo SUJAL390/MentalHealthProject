@@ -1,9 +1,9 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f3f4f6; /* Light grey for subtle contrast */
+    background-color:wheat; /* Light grey for subtle contrast */
     margin: 0;
     padding: 0;
-    color: #2c3e50; /* Dark slate color for better readability */
+    color: white; /* Dark slate color for better readability */
 }
 
 /* Main container */
@@ -11,7 +11,7 @@ body {
     max-width: 800px;
     margin: 50px auto;
     padding: 30px;
-    background-color: #ffffff; /* White for a clean look */
+    background-color: black; /* White for a clean look */
     border-radius: 10px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -65,7 +65,7 @@ textarea:focus {
 
 button {
     background-color: #2980b9; /* Blue button for contrast */
-    color: #ffffff;
+    color: green;
     border: none;
     cursor: pointer;
     font-size: 1.1em;
