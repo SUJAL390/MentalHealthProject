@@ -1,17 +1,16 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color:white; /* Light grey for subtle contrast */
+    background-color:white; 
     margin: 0;
     padding: 0;
-    color: white; /* Dark slate color for better readability */
-}
+    color: white; 
 
 /* Main container */
 .container {
     max-width: 800px;
     margin: 50px auto;
     padding: 30px;
-    background-color: black; /* White for a clean look */
+    background-color: black; 
     border-radius: 10px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -19,12 +18,12 @@ body {
 
 .container:hover {
     transform: scale(1.02);
-    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15); /* More shadow on hover */
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15); 
 }
 
 h1 {
     text-align: center;
-    color: white; /* Darker blue-grey for emphasis */
+    color: white;
     margin-bottom: 20px;
     font-size: 2em;
 }
@@ -36,7 +35,7 @@ form {
 label {
     display: block;
     margin: 10px 0 5px;
-    color:white; /* Consistent with h1 */
+    color:white;
     font-weight: bold;
 }
 
@@ -46,14 +45,14 @@ button {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
-    border: 2px solid #bdc3c7; /* Light grey border */
+    border: 2px solid #bdc3c7; 
     border-radius: 5px;
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 input[type="date"]:focus,
 textarea:focus {
-    border-color: #2980b9; /* Blue focus for accent */
+    border-color: #2980b9; 
     box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
 }
 
@@ -65,7 +64,7 @@ textarea:focus {
 }
 
 button {
-    background-color: #2980b9; /* Blue button for contrast */
+    background-color: #2980b9; 
     color: white;
     border: none;
     cursor: pointer;
@@ -74,26 +73,15 @@ button {
 }
 
 button:hover {
-    background-color: #3498db; /* Lighter blue on hover */
+    background-color: #3498db; 
     transform: translateY(-2px);
 }
 
 #tips {
-    border-top: 2px solid #bdc3c7; /* Subtle grey border for separation */
+    border-top: 2px solid #bdc3c7; 
     padding-top: 20px;
 }
 
 h2 {
     color: white;
-}
-
-/* Responsive Styles */
-@media (max-width: 600px) {
-    .container {
-        padding: 20px;
-    }
-
-    button {
-        font-size: 1em;
-    }
 }
