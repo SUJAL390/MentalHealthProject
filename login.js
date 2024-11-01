@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
       if (isValidLogin) {
         // Redirect to the dashboard after a successful login
-        window.location.href = "index.html";
+        window.location.href = "home.html";
       } else {
         alert("Invalid credentials. Please try again.");
       }
