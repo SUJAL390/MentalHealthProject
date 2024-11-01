@@ -37,21 +37,21 @@
                 document.getElementById('navbar').innerHTML = data;
             });
         
-        // Handle form submission with a message confirmation alert
+       
         document.getElementById('contactForm').addEventListener('submit', function(event) {
             event.preventDefault();  // Prevent page refresh
             
-            // Get form field values
+       
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             const message = document.getElementById('message').value;
 
             // Simple validation
             if (name && email && message) {
-                alert(`Thank you, ${name}! Your message has been sent.`);
-                document.getElementById('contactForm').reset(); // Clear the form fields
+                alert(`Thank you! Your message has been sent.`);
+                document.getElementById('contactForm').reset(); 
             } else {
-                alert('Please fill out all fields.');  // Prompt user to fill all fields if validation fails
+                alert('Please fill out all fields.');  
             }
         });
     </script>
