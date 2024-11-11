@@ -3,7 +3,7 @@ body {
     background-color: #faf3e0; 
     margin: 0;
     padding: 0;
-    color: white; 
+    color: white; }
 
 /* Main container */
 .container {
@@ -58,7 +58,7 @@ textarea:focus {
 }
 
 .mood-options {
-    color:white
+    color:white;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
